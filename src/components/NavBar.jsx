@@ -3,7 +3,7 @@ import hamburger from '../assets/shared/icon-hamburger.svg';
 
 const NavBar = () => {
   return (
-    <nav className='inline-flex bg-indigo-500 h-20 w-full items-center justify-between px-[24px]'>
+    <nav className='inline-flex  h-20 w-full items-center justify-between px-[24px]'>
       <div>
         <img src={logo} alt='' className='h-[40px] w-[40px] ' />
       </div>

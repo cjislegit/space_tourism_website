@@ -7,3 +7,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-image: url('./assets/home/background-home-mobile.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
