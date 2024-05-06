@@ -11,6 +11,11 @@ const HomePage = () => {
           experience!
         </p>
       </section>
+      <section className=' flex items-center justify-center flex-grow'>
+        <div className='bg-white bellefair-regular text-[20px] flex justify-center items-center w-[150px] h-[150px] rounded-full tex'>
+          <a href=''>Explore</a>
+        </div>
+      </section>
     </>
   );
 };

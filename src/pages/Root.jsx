@@ -5,7 +5,7 @@ const RootLayout = () => {
   return (
     <>
       <NavBar />
-      <main>
+      <main className='flex flex-col flex-grow'>
         <Outlet />
       </main>
     </>
