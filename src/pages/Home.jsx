@@ -1,7 +1,7 @@
 const HomePage = () => {
   return (
     <>
-      <section className='text-white pt-[60px] px-6 text-center'>
+      <section className='text-white pt-[60px] px-6 text-center h-1/2'>
         <p className='barlow-regular text-base'>SO, YOU WANT TO TRAVEL TO</p>
         <h1 className='bellefair-regular text-[80px]'>SPACE</h1>
         <p className='barlow-regular text-base'>
@@ -13,7 +13,7 @@ const HomePage = () => {
       </section>
       <section className=' flex items-center justify-center flex-grow'>
         <div className='bg-white bellefair-regular text-[20px] flex justify-center items-center w-[150px] h-[150px] rounded-full tex'>
-          <a href=''>Explore</a>
+          <a href=''>EXPLORE</a>
         </div>
       </section>
     </>
