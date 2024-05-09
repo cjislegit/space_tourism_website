@@ -29,6 +29,12 @@ body {
   background-size: cover;
 }
 
+@media (min-width: 768px) {
+  body {
+    background-image: url('./assets/home/background-home-tablet.jpg');
+  }
+}
+
 .bellefair-regular {
   font-family: 'Bellefair', serif;
   font-weight: 400;
