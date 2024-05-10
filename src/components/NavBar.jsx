@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import logo from '../assets/shared/logo.svg';
 import hamburger from '../assets/shared/icon-hamburger.svg';
 
@@ -9,27 +11,47 @@ const NavBar = () => {
       </div>
       <div className='md:w-1/2 md:h-full '>
         <nav className='text-white text-[14px] uppercase h-full flex justify-evenly bg-white bg-opacity-[4%] backdrop-blur-md'>
-          <a className='md:h-full flex items-center' href=''>
+          <NavLink
+            to='/'
+            className={({ isActive }) =>
+              isActive
+                ? 'md:h-full flex items-center border-b-2 border-white'
+                : 'md:h-full flex items-center hover:border-b-2 hover:border-[#979797]'
+            }
+            end
+          >
             Home
-          </a>
-          <a
-            className='md:h-full flex items-center hover:border-b-2 hover:border-[#979797]'
-            href=''
+          </NavLink>
+          <NavLink
+            to='/destination'
+            className={({ isActive }) =>
+              isActive
+                ? 'md:h-full flex items-center border-b-2 border-white'
+                : 'md:h-full flex items-center hover:border-b-2 hover:border-[#979797]'
+            }
           >
             Destination
-          </a>
-          <a
-            className='md:h-full flex items-center hover:border-b-2 hover:border-[#979797]'
-            href=''
+          </NavLink>
+          <NavLink
+            to='/crew'
+            className={({ isActive }) =>
+              isActive
+                ? 'md:h-full flex items-center border-b-2 border-white'
+                : 'md:h-full flex items-center hover:border-b-2 hover:border-[#979797]'
+            }
           >
             Crew
-          </a>
-          <a
-            className='md:h-full flex items-center hover:border-b-2 hover:border-[#979797]'
-            href=''
+          </NavLink>
+          <NavLink
+            to='/technology'
+            className={({ isActive }) =>
+              isActive
+                ? 'md:h-full flex items-center border-b-2 border-white'
+                : 'md:h-full flex items-center hover:border-b-2 hover:border-[#979797]'
+            }
           >
             technology
-          </a>
+          </NavLink>
         </nav>
         <img
           src={hamburger}
