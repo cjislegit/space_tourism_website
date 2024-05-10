@@ -9,7 +9,7 @@ const NavBar = () => {
       <div>
         <img src={logo} alt='' className='h-[40px] w-[40px] ' />
       </div>
-      <div className='md:w-1/2 md:h-full '>
+      <div className='md:w-[60%] md:h-full '>
         <nav className='text-white text-[14px] uppercase h-full flex justify-evenly bg-white bg-opacity-[4%] backdrop-blur-md'>
           <NavLink
             to='/'
