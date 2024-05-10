@@ -12,13 +12,22 @@ const NavBar = () => {
           <a className='md:h-full flex items-center' href=''>
             Home
           </a>
-          <a className='md:h-full flex items-center' href=''>
+          <a
+            className='md:h-full flex items-center hover:border-b-2 hover:border-[#979797]'
+            href=''
+          >
             Destination
           </a>
-          <a className='md:h-full flex items-center' href=''>
+          <a
+            className='md:h-full flex items-center hover:border-b-2 hover:border-[#979797]'
+            href=''
+          >
             Crew
           </a>
-          <a className='md:h-full flex items-center' href=''>
+          <a
+            className='md:h-full flex items-center hover:border-b-2 hover:border-[#979797]'
+            href=''
+          >
             technology
           </a>
         </nav>
