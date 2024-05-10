@@ -35,6 +35,12 @@ body {
   }
 }
 
+@media (min-width: 1440px) {
+  body {
+    background-image: url('./assets/home/background-home-desktop.jpg');
+  }
+}
+
 .bellefair-regular {
   font-family: 'Bellefair', serif;
   font-weight: 400;
