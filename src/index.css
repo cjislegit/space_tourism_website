@@ -40,6 +40,8 @@ body {
     padding-top: 50px;
     padding-left: 50px;
     background-image: url('./assets/home/background-home-desktop.jpg');
+    display: flex;
+    justify-content: center;
   }
 }
 
