@@ -56,7 +56,7 @@ const NavBar = () => {
         <img
           src={hamburger}
           alt=''
-          className='h-[24px] w-[21px] justify-self-end md:hidden'
+          className='block h-[24px] w-[21px] justify-self-end md:hidden'
         />
       </div>
     </nav>
