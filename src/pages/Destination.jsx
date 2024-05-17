@@ -37,14 +37,14 @@ const DestinationPage = () => {
           <span className='opacity-[25%] font-bold pr-[18px] '>01</span> Pick
           Your Destination
         </p>
-      </section>
-      <section className='flex flex-col items-center mt-[32px]'>
         <img
           src={destination.image}
           alt={moon.alt}
-          className='w-[170px] h-[170px]'
+          className='w-[170px] h-[170px] mt-[32px]'
         />
-        <div className='text-white flex w-full justify-between pr-[70px] pl-[70px] barlow-condensed-regular text-[14px] tracking-[2.3px] mt-[26px]'>
+      </section>
+      <section className='flex flex-col items-center mt-[26px] text-white'>
+        <div className=' flex w-full justify-between pr-[70px] pl-[70px] barlow-condensed-regular text-[14px] tracking-[2.3px]'>
           <div
             className={
               destinationChoice == 'moon'
@@ -86,6 +86,7 @@ const DestinationPage = () => {
             TITAN
           </div>
         </div>
+        <h1 className='bellefair-regular'>{destination.name}</h1>
       </section>
     </>
   );
