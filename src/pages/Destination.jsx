@@ -43,7 +43,7 @@ const DestinationPage = () => {
           className='w-[170px] h-[170px] mt-[32px]'
         />
       </section>
-      <section className='flex flex-col items-center mt-[26px] text-white'>
+      <section className='flex flex-col items-center mt-[26px] text-white px-[22px]'>
         <div className=' flex w-full justify-between pr-[70px] pl-[70px] barlow-condensed-regular text-[14px] tracking-[2.3px]'>
           <div
             className={
@@ -89,15 +89,15 @@ const DestinationPage = () => {
         <h1 className='bellefair-regular text-[56px] uppercase pt-[20px]'>
           {destination.name}
         </h1>
-        <div className='barlow-regular text-[16px] px-[24px] text-center'>
+        <div className='barlow-regular text-[16px] text-center'>
           {destination.desc}
         </div>
-        <div>
-          <div>
+        <div className='w-full flex flex-col items-center mt-[32px] border-t-[1px] border-[#383B4B]'>
+          <div className='flex flex-col text-center'>
             <span>AVG. DISTANCE</span>
-            <span>{destination.dist}</span>
+            <span>{destination.dist} KM</span>
           </div>
-          <div>
+          <div className='flex flex-col text-center'>
             <span>EST. TRAVEL TIME</span>
             <span>{destination.time}</span>
           </div>
