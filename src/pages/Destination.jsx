@@ -86,7 +86,9 @@ const DestinationPage = () => {
             TITAN
           </div>
         </div>
-        <h1 className='bellefair-regular'>{destination.name}</h1>
+        <h1 className='bellefair-regular text-[56px] uppercase pt-[20px]'>
+          {destination.name}
+        </h1>
       </section>
     </>
   );
