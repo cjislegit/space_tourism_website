@@ -92,6 +92,16 @@ const DestinationPage = () => {
         <div className='barlow-regular text-[16px] px-[24px] text-center'>
           {destination.desc}
         </div>
+        <div>
+          <div>
+            <span>AVG. DISTANCE</span>
+            <span>{destination.dist}</span>
+          </div>
+          <div>
+            <span>EST. TRAVEL TIME</span>
+            <span>{destination.time}</span>
+          </div>
+        </div>
       </section>
     </>
   );
