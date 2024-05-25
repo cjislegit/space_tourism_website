@@ -15,6 +15,10 @@ export default {
           'url("/src/assets/home/background-home-desktop.jpg")',
         backgroundDestinationMobile:
           'url("/src/assets/destination/background-destination-mobile.jpg")',
+        backgroundDestinationTablet:
+          'url("/src/assets/destination/background-destination-tablet.jpg")',
+        backgroundDestinationDesktop:
+          'url("/src/assets/destination/background-destination-desktop.jpg")',
       },
     },
   },

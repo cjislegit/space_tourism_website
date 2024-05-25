@@ -16,7 +16,7 @@ const RootLayout = () => {
         break;
       case '/destination':
         setBackground(
-          'h-full bg-backgroundDestinationMobile bg-no-repeat bg-fixed bg-center bg-cover'
+          'bg-backgroundDestinationMobile md:bg-backgroundDestinationTablet 2xl:bg-backgroundDestinationDesktop'
         );
         break;
 
@@ -24,7 +24,7 @@ const RootLayout = () => {
         setBackground('h-full');
         break;
     }
-  }, []);
+  }, [location]);
 
   return (
     <div
