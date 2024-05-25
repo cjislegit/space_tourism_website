@@ -11,7 +11,7 @@ const RootLayout = () => {
     switch (location.pathname) {
       case '/':
         setBackground(
-          'h-full bg-backgroundHomeMobile bg-no-repeat bg-fixed bg-center bg-cover md:bg-backgroundHomeTablet 2xl:bg-backgroundHomeDesktop 2xl:pt-[50px] 2xl:pl-[50px]'
+          'bg-backgroundHomeMobile md:bg-backgroundHomeTablet 2xl:bg-backgroundHomeDesktop'
         );
         break;
       case '/destination':
@@ -27,7 +27,9 @@ const RootLayout = () => {
   }, []);
 
   return (
-    <div className={background}>
+    <div
+      className={`${background} h-full flex flex-col bg-no-repeat bg-fixed bg-center bg-cover 2xl:pt-[50px] 2xl:pl-[50px]`}
+    >
       <NavBar />
       <main className='flex flex-col flex-grow 2xl:flex-row'>
         <Outlet />
