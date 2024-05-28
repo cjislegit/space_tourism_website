@@ -32,15 +32,15 @@ const DestinationPage = () => {
 
   return (
     <>
-      <section className='text-white barlow-condensed-regular flex flex-col items-center text-[16px] uppercase tracking-[2.7px]'>
-        <p>
+      <section className='text-white barlow-condensed-regular flex flex-col items-center text-[16px] uppercase tracking-[2.7px] md:pt-[40px]'>
+        <p className='md:self-start md:pl-[24px] md:text-[20px]'>
           <span className='opacity-[25%] font-bold pr-[18px] '>01</span> Pick
           Your Destination
         </p>
         <img
           src={destination.image}
           alt={moon.alt}
-          className='w-[170px] h-[170px] mt-[32px]'
+          className='w-[170px] h-[170px] mt-[32px] md:w-[300px] md:h-[300px]'
         />
       </section>
       <section className='flex flex-col items-center mt-[26px] text-white px-[22px]'>
