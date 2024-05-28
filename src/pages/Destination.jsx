@@ -40,7 +40,7 @@ const DestinationPage = () => {
         <img
           src={destination.image}
           alt={moon.alt}
-          className='w-[170px] h-[170px] mt-[32px] md:w-[300px] md:h-[300px]'
+          className='w-[170px] h-[170px] mt-[32px] md:w-[300px] md:h-[300px] md:mt-[60px]'
         />
       </section>
       <section className='flex flex-col items-center mt-[26px] text-white px-[22px]'>
