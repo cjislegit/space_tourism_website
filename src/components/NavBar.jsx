@@ -5,7 +5,7 @@ import hamburger from '../assets/shared/icon-hamburger.svg';
 
 const NavBar = () => {
   return (
-    <nav className='inline-flex  h-20 w-full items-center justify-between px-[24px] md:pr-0'>
+    <nav className='inline-flex  h-20 w-full items-center justify-between px-[24px] md:pr-0 max-w-[2560px]'>
       <div>
         <img src={logo} alt='' className='h-[40px] w-[40px] ' />
       </div>

@@ -31,7 +31,7 @@ const RootLayout = () => {
       className={`${background} h-full flex flex-col bg-no-repeat bg-fixed bg-center bg-cover 2xl:pt-[50px] 2xl:pl-[50px]`}
     >
       <NavBar />
-      <main className='flex flex-col flex-grow 2xl:flex-row'>
+      <main className='flex flex-col flex-grow 2xl:flex-row max-w-[2560px]'>
         <Outlet />
       </main>
     </div>
