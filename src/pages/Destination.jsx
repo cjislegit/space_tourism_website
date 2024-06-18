@@ -33,17 +33,17 @@ const DestinationPage = () => {
   return (
     <>
       <section className='text-white barlow-condensed-regular flex flex-col items-center text-[16px] uppercase tracking-[2.7px] md:pt-[40px] 2xl:pl-[117px] 2xl:self-center 2xl:flex-grow'>
-        <p className='md:self-start md:pl-[24px] md:text-[20px] 2xl:text-[28px] 2xl:mb-[97px]'>
+        <p className='md:self-start md:pl-[24px] md:text-[20px] 2xl:text-[28px] 2xl:mb-[97px] 2xl:tracking-widest'>
           <span className='opacity-[25%] font-bold pr-[18px] '>01</span> Pick
           Your Destination
         </p>
         <img
           src={destination.image}
           alt={moon.alt}
-          className='w-[170px] h-[170px] mt-[32px] md:w-[300px] md:h-[300px] md:mt-[60px] 2xl:w-[445px] 2xl:h-[445px] 2xl:self-center 2xl:mt-0'
+          className='w-[170px] h-[170px] mt-[32px] md:w-[300px] md:h-[300px] md:mt-[60px] 2xl:w-[445px] 2xl:h-[445px] 2xl:mt-0 2xl:self-start 2xl:ml-[85px]'
         />
       </section>
-      <section className='flex flex-col items-center mt-[26px] text-white px-[22px] 2xl:self-center 2xl:items-start'>
+      <section className='flex flex-col items-center mt-[26px] text-white px-[22px] 2xl:self-center 2xl:items-start 2xl:max-w-[445px]'>
         <div className=' flex w-full justify-between  barlow-condensed-regular text-[14px] tracking-[2.3px] max-w-[300px] md:p-0 md:text-[16px]'>
           <div
             className={
