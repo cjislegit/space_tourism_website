@@ -5,11 +5,11 @@ import hamburger from '../assets/shared/icon-hamburger.svg';
 
 const NavBar = () => {
   return (
-    <nav className='inline-flex  h-20 w-full items-center justify-between px-[24px] md:pr-0 max-w-[1440px]'>
+    <nav className='inline-flex  h-20 w-full items-center justify-between px-[24px] md:pr-0 '>
       <div>
         <img src={logo} alt='' className='h-[40px] w-[40px] ' />
       </div>
-      <div className='md:w-[60%] md:h-full '>
+      <div className='md:w-[60%] md:h-full max-w-[1285px]'>
         <nav className='hidden text-white text-[14px] uppercase h-full md:flex justify-evenly bg-white bg-opacity-[4%] backdrop-blur-md'>
           <NavLink
             to='/'
