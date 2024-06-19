@@ -43,13 +43,13 @@ const DestinationPage = () => {
           className='w-[170px] h-[170px] mt-[32px] md:w-[300px] md:h-[300px] md:mt-[60px] 2xl:w-[445px] 2xl:h-[445px] 2xl:mt-0 2xl:self-start 2xl:ml-[85px]'
         />
       </section>
-      <section className='flex flex-col items-center mt-[26px] text-white px-[22px] 2xl:self-center 2xl:items-start 2xl:max-w-[445px]'>
+      <section className='flex flex-col items-center mt-[26px] text-white px-[22px] 2xl:self-center 2xl:items-start 2xl:max-w-[445px] 2xl:mr-[160px]'>
         <div className=' flex w-full justify-between  barlow-condensed-regular text-[14px] tracking-[2.3px] max-w-[300px] md:p-0 md:text-[16px]'>
           <div
             className={
               destinationChoice == 'moon'
                 ? 'border-b-2 border-white pb-[2px]'
-                : null
+                : 'hover:border-b-2  border-[#979797] pb-[2px]'
             }
             onClick={() => handleChoiceClick('moon')}
           >
@@ -59,7 +59,7 @@ const DestinationPage = () => {
             className={
               destinationChoice == 'mars'
                 ? 'border-b-2 border-white pb-[2px]'
-                : null
+                : 'hover:border-b-2  border-[#979797] pb-[2px]'
             }
             onClick={() => handleChoiceClick('mars')}
           >
@@ -69,7 +69,7 @@ const DestinationPage = () => {
             className={
               destinationChoice == 'europa'
                 ? 'border-b-2 border-white pb-[2px]'
-                : null
+                : 'hover:border-b-2  border-[#979797] pb-[2px]'
             }
             onClick={() => handleChoiceClick('europa')}
           >
@@ -79,7 +79,7 @@ const DestinationPage = () => {
             className={
               destinationChoice == 'titan'
                 ? 'border-b-2 border-white pb-[2px]'
-                : null
+                : 'hover:border-b-2  border-[#979797] pb-[2px]'
             }
             onClick={() => handleChoiceClick('titan')}
           >
