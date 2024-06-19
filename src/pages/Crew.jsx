@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { DATA } from '../data';
 
 const CrewPage = () => {
+  const [crewMember, setCrewMember] = useState(0);
+
   const crew = DATA.crew;
 
   return (
@@ -11,6 +13,11 @@ const CrewPage = () => {
           <span className='opacity-[25%] font-bold pr-[18px] '>01</span> Meet
           Your Crew
         </p>
+        <img
+          src={crew[crewMember].images.webp}
+          // alt={moon.alt}
+          className='w-[170px] h-[170px] mt-[32px] md:w-[300px] md:h-[300px] md:mt-[60px] 2xl:w-[445px] 2xl:h-[445px] 2xl:mt-0 2xl:self-start 2xl:ml-[85px]'
+        />
       </section>
     </>
   );
