@@ -19,6 +19,12 @@ export default {
           'url("/src/assets/destination/background-destination-tablet.jpg")',
         backgroundDestinationDesktop:
           'url("/src/assets/destination/background-destination-desktop.jpg")',
+        backgroundCrewMobile:
+          'url("/src/assets/crew/background-crew-mobile.jpg")',
+        backgroundCrewTablet:
+          'url("/src/assets/crew/background-crew-tablet.jpg")',
+        backgroundCrewDesktop:
+          'url("/src/assets/crew/background-crew-desktop.jpg")',
       },
     },
   },

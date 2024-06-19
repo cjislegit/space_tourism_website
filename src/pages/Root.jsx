@@ -19,6 +19,11 @@ const RootLayout = () => {
           'bg-backgroundDestinationMobile md:bg-backgroundDestinationTablet 2xl:bg-backgroundDestinationDesktop'
         );
         break;
+      case '/crew':
+        setBackground(
+          'bg-backgroundCrewMobile md:bg-backgroundCrewTablet 2xl:bg-backgroundCrewDesktop'
+        );
+        break;
 
       default:
         setBackground('h-full');
