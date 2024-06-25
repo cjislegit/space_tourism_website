@@ -21,12 +21,19 @@ const CrewPage = () => {
           />
         </div>
       </section>
-      <section className=' flex mt-[32px] justify-center'>
+      <section className=' flex flex-wrap mt-[32px] justify-center text-center'>
         <div className='flex w-[33%] justify-around'>
           <div className='w-[10px] h-[10px] rounded-full bg-white'></div>
           <div className='w-[10px] h-[10px] rounded-full bg-[#383B4B]'></div>
           <div className='w-[10px] h-[10px] rounded-full bg-[#383B4B]'></div>
           <div className='w-[10px] h-[10px] rounded-full bg-[#383B4B]'></div>
+        </div>
+        <div className='text-white mt-[32px] w-[90%]'>
+          <div className='bellefair-regular  text-[16px] uppercase'>
+            {crew[crewMember].role}
+          </div>
+          <div>{crew[crewMember].name}</div>
+          <div>{crew[crewMember].bio}</div>
         </div>
       </section>
     </>
