@@ -21,12 +21,12 @@ const CrewPage = () => {
           />
         </div>
       </section>
-      <section>
-        <div>
+      <section className=' flex mt-[32px] justify-center'>
+        <div className='flex w-[33%] justify-around'>
           <div className='w-[10px] h-[10px] rounded-full bg-white'></div>
-          <div className='w-[10px] h-[10px] rounded-full bg-white'></div>
-          <div className='w-[10px] h-[10px] rounded-full bg-white'></div>
-          <div className='w-[10px] h-[10px] rounded-full bg-white'></div>
+          <div className='w-[10px] h-[10px] rounded-full bg-[#383B4B]'></div>
+          <div className='w-[10px] h-[10px] rounded-full bg-[#383B4B]'></div>
+          <div className='w-[10px] h-[10px] rounded-full bg-[#383B4B]'></div>
         </div>
       </section>
     </>
