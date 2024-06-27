@@ -6,6 +6,10 @@ const CrewPage = () => {
 
   const crew = DATA.crew;
 
+  const handleCrewClick = (newCrew) => {
+    setCrewMember(newCrew);
+  };
+
   return (
     <>
       <section className='text-white barlow-condensed-regular flex flex-col items-center text-[16px] uppercase tracking-[2.7px] md:pt-[40px] 2xl:pl-[117px] 2xl:self-center 2xl:flex-grow'>
@@ -27,21 +31,25 @@ const CrewPage = () => {
             className={`w-[10px] h-[10px] rounded-full ${
               crewMember == 0 ? 'bg-white' : 'bg-[#383B4B]'
             }`}
+            onClick={() => handleCrewClick(0)}
           ></div>
           <div
             className={`w-[10px] h-[10px] rounded-full ${
               crewMember == 1 ? 'bg-white' : 'bg-[#383B4B]'
             }`}
+            onClick={() => handleCrewClick(1)}
           ></div>
           <div
             className={`w-[10px] h-[10px] rounded-full ${
               crewMember == 2 ? 'bg-white' : 'bg-[#383B4B]'
             }`}
+            onClick={() => handleCrewClick(2)}
           ></div>
           <div
             className={`w-[10px] h-[10px] rounded-full ${
               crewMember == 3 ? 'bg-white' : 'bg-[#383B4B]'
             }`}
+            onClick={() => handleCrewClick(3)}
           ></div>
         </div>
         <div className='text-white mt-[32px] w-[90%]'>
