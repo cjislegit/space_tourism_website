@@ -32,8 +32,12 @@ const CrewPage = () => {
           <div className='bellefair-regular  text-[16px] uppercase'>
             {crew[crewMember].role}
           </div>
-          <div>{crew[crewMember].name}</div>
-          <div>{crew[crewMember].bio}</div>
+          <div className='bellefair-regular uppercase text-[24px]'>
+            {crew[crewMember].name}
+          </div>
+          <div className='barlow-regular text-[15px] px-[15px] text-center mt-[16px] leading-relaxed'>
+            {crew[crewMember].bio}
+          </div>
         </div>
       </section>
     </>
