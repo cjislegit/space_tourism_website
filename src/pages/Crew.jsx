@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { DATA } from '../data';
 
 const CrewPage = () => {
-  const [crewMember, setCrewMember] = useState(0);
+  const [crewMember, setCrewMember] = useState(3);
 
   const crew = DATA.crew;
 
@@ -23,10 +23,26 @@ const CrewPage = () => {
       </section>
       <section className=' flex flex-wrap mt-[32px] justify-center text-center'>
         <div className='flex w-[33%] justify-around'>
-          <div className='w-[10px] h-[10px] rounded-full bg-white'></div>
-          <div className='w-[10px] h-[10px] rounded-full bg-[#383B4B]'></div>
-          <div className='w-[10px] h-[10px] rounded-full bg-[#383B4B]'></div>
-          <div className='w-[10px] h-[10px] rounded-full bg-[#383B4B]'></div>
+          <div
+            className={`w-[10px] h-[10px] rounded-full ${
+              crewMember == 0 ? 'bg-white' : 'bg-[#383B4B]'
+            }`}
+          ></div>
+          <div
+            className={`w-[10px] h-[10px] rounded-full ${
+              crewMember == 1 ? 'bg-white' : 'bg-[#383B4B]'
+            }`}
+          ></div>
+          <div
+            className={`w-[10px] h-[10px] rounded-full ${
+              crewMember == 2 ? 'bg-white' : 'bg-[#383B4B]'
+            }`}
+          ></div>
+          <div
+            className={`w-[10px] h-[10px] rounded-full ${
+              crewMember == 3 ? 'bg-white' : 'bg-[#383B4B]'
+            }`}
+          ></div>
         </div>
         <div className='text-white mt-[32px] w-[90%]'>
           <div className='bellefair-regular  text-[16px] uppercase'>
