@@ -89,7 +89,7 @@ const CrewPage = () => {
             onClick={() => handleCrewClick(3)}
           ></div>
         </div>
-        <div className='w-[90%] flex justify-center'>
+        <div className='w-[90%] flex justify-center h-[50%]'>
           <img
             src={crew[crewMember].images.webp}
             // alt={moon.alt}
