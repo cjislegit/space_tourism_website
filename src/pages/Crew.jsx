@@ -63,7 +63,7 @@ const CrewPage = () => {
             {crew[crewMember].bio}
           </div>
         </div>
-        <div className='flex w-[33%] justify-around mt-[40px] max-w-[88px]'>
+        <div className='hidden md:flex w-[33%] justify-around mt-[40px] max-w-[88px]'>
           <div
             className={`w-[10px] h-[10px] rounded-full ${
               crewMember == 0 ? 'bg-white' : 'bg-[#383B4B]'
@@ -89,7 +89,7 @@ const CrewPage = () => {
             onClick={() => handleCrewClick(3)}
           ></div>
         </div>
-        <div className='w-[90%] flex justify-center h-[50%]'>
+        <div className=' hidden w-[90%] md:flex justify-center h-[50%]'>
           <img
             src={crew[crewMember].images.webp}
             // alt={moon.alt}
