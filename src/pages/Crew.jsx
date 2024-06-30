@@ -62,32 +62,32 @@ const CrewPage = () => {
           <div className='barlow-regular text-[15px] px-[15px] text-center mt-[16px] leading-relaxed md:px-[20%]'>
             {crew[crewMember].bio}
           </div>
-        </div>
-        <div className='hidden md:flex w-[33%] justify-around mt-[40px] max-w-[88px]'>
-          <div
-            className={`w-[10px] h-[10px] rounded-full ${
-              crewMember == 0 ? 'bg-white' : 'bg-[#383B4B]'
-            }`}
-            onClick={() => handleCrewClick(0)}
-          ></div>
-          <div
-            className={`w-[10px] h-[10px] rounded-full ${
-              crewMember == 1 ? 'bg-white' : 'bg-[#383B4B]'
-            }`}
-            onClick={() => handleCrewClick(1)}
-          ></div>
-          <div
-            className={`w-[10px] h-[10px] rounded-full ${
-              crewMember == 2 ? 'bg-white' : 'bg-[#383B4B]'
-            }`}
-            onClick={() => handleCrewClick(2)}
-          ></div>
-          <div
-            className={`w-[10px] h-[10px] rounded-full ${
-              crewMember == 3 ? 'bg-white' : 'bg-[#383B4B]'
-            }`}
-            onClick={() => handleCrewClick(3)}
-          ></div>
+          <div className='hidden md:flex justify-center mt-[40px]'>
+            <div
+              className={`w-[10px] h-[10px] rounded-full mr-[16px] ${
+                crewMember == 0 ? 'bg-white' : 'bg-[#383B4B]'
+              }`}
+              onClick={() => handleCrewClick(0)}
+            ></div>
+            <div
+              className={`w-[10px] h-[10px] rounded-full mr-[16px]  ${
+                crewMember == 1 ? 'bg-white' : 'bg-[#383B4B]'
+              }`}
+              onClick={() => handleCrewClick(1)}
+            ></div>
+            <div
+              className={`w-[10px] h-[10px] rounded-full mr-[16px]  ${
+                crewMember == 2 ? 'bg-white' : 'bg-[#383B4B]'
+              }`}
+              onClick={() => handleCrewClick(2)}
+            ></div>
+            <div
+              className={`w-[10px] h-[10px] rounded-full ${
+                crewMember == 3 ? 'bg-white' : 'bg-[#383B4B]'
+              }`}
+              onClick={() => handleCrewClick(3)}
+            ></div>
+          </div>
         </div>
         <div className=' hidden w-[90%] md:flex justify-center h-[50%]'>
           <img
