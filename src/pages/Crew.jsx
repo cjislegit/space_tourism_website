@@ -25,7 +25,7 @@ const CrewPage = () => {
           />
         </div>
       </section>
-      <section className=' flex flex-wrap mt-[32px] justify-center text-center'>
+      <section className=' flex flex-wrap mt-[32px] justify-center text-center 2xl:flex-nowrap'>
         <div className='flex w-[33%] justify-around md:hidden'>
           <div
             className={`w-[10px] h-[10px] rounded-full ${
