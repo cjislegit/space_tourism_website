@@ -53,13 +53,13 @@ const CrewPage = () => {
           ></div>
         </div>
         <div className='text-white mt-[32px] w-[90%]'>
-          <div className='bellefair-regular  text-[16px] uppercase md:text-[24px]'>
+          <div className='bellefair-regular  text-[16px] uppercase md:text-[24px] 2xl:text-[32px] 2xl:text-start'>
             {crew[crewMember].role}
           </div>
-          <div className='bellefair-regular uppercase text-[24px] md:text-[40px]'>
+          <div className='bellefair-regular uppercase text-[24px] md:text-[40px] 2xl:text-[56px] 2xl:text-start'>
             {crew[crewMember].name}
           </div>
-          <div className='barlow-regular text-[15px] px-[15px] text-center mt-[16px] leading-relaxed md:px-[20%]'>
+          <div className='barlow-regular text-[15px] px-[15px] text-center mt-[16px] leading-relaxed md:px-[20%] 2xl:text-[18px] 2xl:text-start 2xl:p-0 2xl:pr-[40%]'>
             {crew[crewMember].bio}
           </div>
           <div className='hidden md:flex justify-center mt-[40px]'>
