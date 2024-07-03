@@ -62,7 +62,7 @@ const CrewPage = () => {
           <div className='barlow-regular text-[15px] px-[15px] text-center mt-[16px] leading-relaxed md:px-[20%] 2xl:text-[18px] 2xl:text-start 2xl:p-0 2xl:pr-[40%]'>
             {crew[crewMember].bio}
           </div>
-          <div className='hidden md:flex justify-center mt-[40px]'>
+          <div className='hidden md:flex justify-center mt-[40px] 2xl:justify-start'>
             <div
               className={`w-[10px] h-[10px] rounded-full mr-[16px] ${
                 crewMember == 0 ? 'bg-white' : 'bg-[#383B4B]'
